@@ -1,0 +1,7 @@
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDDAL\obj\Debug\CDDAL.csprojResolveAssemblyReference.cache
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDDAL\bin\Debug\CDDAL.dll
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDDAL\bin\Debug\CDDAL.pdb
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDDAL\bin\Debug\CDModels.dll
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDDAL\bin\Debug\CDModels.pdb
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDDAL\obj\Debug\CDDAL.dll
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDDAL\obj\Debug\CDDAL.pdb

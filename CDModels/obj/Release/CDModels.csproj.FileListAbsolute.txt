@@ -1,0 +1,4 @@
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\bin\Release\CDModels.dll
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\bin\Release\CDModels.pdb
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\obj\Release\CDModels.dll
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\obj\Release\CDModels.pdb

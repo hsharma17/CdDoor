@@ -1,0 +1,5 @@
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\bin\Debug\CDModels.dll
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\bin\Debug\CDModels.pdb
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\obj\Debug\CDModels.dll
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\obj\Debug\CDModels.pdb
+C:\Users\Honey\documents\visual studio 2013\Projects\CdDoor\CDModels\obj\Debug\CDModels.csprojResolveAssemblyReference.cache

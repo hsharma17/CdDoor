@@ -1,0 +1,60 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RegisterPropertyPage2</title>
+</head>
+<body>
+    <div> 
+        <table>
+            <tr>
+                <th>
+                    Rooms
+                </th>
+                <th>
+                    Bed1
+                </th>
+                <th>
+                    Bed2
+                </th>
+                <th>
+                    Bed3
+                </th>
+                <th>
+                    Bed Price
+                </th>
+                <th>
+                    Security Deposit
+                </th>
+                <th>
+                    Is Active
+                </th>
+            </tr>
+
+            @foreach (var item in ViewBag.Rooms)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                    </td>
+                </tr>
+            }
+
+            </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+﻿@{
+    
+    Layout = ""; 
+}
+
+
+<div class="">
+    <h4><span>My</span> Payments</h4>
+    <div class="tab-style-2">
+        <div class="tab-style-2-line">
+            <ul class="nav nav-tabs ">
+                <li class="active">
+                    <a href="#tab_default_1" data-toggle="tab" id="unpaidpaid">Unpaid Dues</a>
+                </li>
+                <li>
+                    <a href="#tab_default_2" data-toggle="tab" id="alreadypaid">Already Paid</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab_default_1">
+                    <table class="responsive-table-input-matrix">
+                        <thead>
+                            <tr>
+                                <th style="padding-left:10px">Total Dues</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                    
+                                @foreach (System.Data.DataRow row in Model.Rows)
+                                {
+                                    <tr>
+                                        @foreach (System.Data.DataColumn col in Model.Columns)
+                                        {
+                                            <td height="50px" style="padding-left:10px">
+                                                <input type="checkbox">
+                                        @row[col.ColumnName]</td>
+                                        }
+                                    </tr>
+                                }
+
+                            }
+
+                            <tr>
+                                <td height="50px" style="padding-left:10px">
+                                    <input type="checkbox">
+                                    Rs 7000 Due     Date: 21 July 2017</td>
+                            </tr>
+                            <tr>
+                                <td height="50px" style="padding-left:10px">
+                                    <input type="checkbox">
+                                    Rs 6000 Due Date: 21 Aug 2017</td>
+                            </tr>
+                            <tr>
+                                <td height="50px" style="padding-left:10px">
+                                    <input type="checkbox">
+                                    Rs 8000 Due Date: 21 Oct 2017</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="tab-pane" id="tab_default_2">
+                    <table class="responsive-table-input-matrix">
+                        <thead>
+                            <tr>
+                                <th style="padding-left:10px">Amount Paid</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td height="50px" style="padding-left:10px">
+                                    <input type="checkbox">
+                                    Rs 7000 Paid Date: 21 May 2017</td>
+                            </tr>
+                            <tr>
+                                <td height="50px" style="padding-left:10px">
+                                    <input type="checkbox">
+                                    Rs 6000 Paid Date: 21 Jun 2017</td>
+                            </tr>
+                            <tr>
+                                <td height="50px" style="padding-left:10px">
+                                    <input type="checkbox">
+                                    Rs 8000 Paid Date: 1 July 2017</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+   <div id="paynow">
+        <a class="button-sm button-theme" href="#" target="_blank">Pay Now
+                                    </a>
+        </div>
+    
+</div>
